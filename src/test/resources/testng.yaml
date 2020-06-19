@@ -1,0 +1,8 @@
+name: LoginTestSuite
+threadCount: 1
+tests:
+  - name: LoginTestSet
+    classes:
+      - com.test.automation.tests.LoginPageTest
+listeners:
+  - com.test.automation.listeners.ExtentReportingListener
